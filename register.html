@@ -1,0 +1,66 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-07-02 16:57:14
+ * @LastEditTime: 2020-07-06 11:30:23
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /二期项目——京东商城/register.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.ico">
+    <title>个人注册</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="container f-clear">
+                <div class="header-left f-clear f-left">
+                    <a href="" class="logo f-left"></a>
+                    <h3 class="f-left">欢迎注册</h3>
+                </div>
+                <div class="header-right"><span>已有账号？</span><a href="./login.html">请登录&gt;</a></div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="reg-box">
+                <div class="plan f-clear">
+                    <div class="now one plan-text"><em>1</em><span>验证手机号</span></div>
+                    <div class="line1"></div>
+                    <div class="two plan-text"><em>2</em><span>填写账号信息</span></div>
+                    <div class="line2"></div>
+                    <div class="three plan-text"><em>3</em><span>注册成功</span></div>
+                </div>
+                <div class="result-phone" id="j-result-phone">
+                    <div class="input f-clear p-rel" id="j-wrap">
+                        <div class="place">中国&nbsp;0086</div>
+                        <div class="p-rel">
+                            <input type="text" maxlength="11" name="telephone" id="j-phone">
+                            <span class="placeholder" id="j-holder">建议使用常用手机号</span>
+                            <span class="close" id="j-close"></span>
+                        </div>
+                        <div class="result-msg" style="display: none"><em class="msg-bg"></em><span id="j-msg">格式错误</span></div>
+                    </div>
+                    <div class="result"><span>点击按钮进行验证</span></div>
+                    <div class="next"><button id="j-nextBtn">下一步</button></div>
+                    <div class="other f-clear">
+                        <div class="f-left"><em style="background-position: 0 -161px;"></em><a href="">企业用户注册</a></div>
+                        <div class="f-right"><em style="background-position: -40px -161px;"></em><a href="">海外用户注册</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+    <script src="./js/register.js"></script>
+</body>
+
+</html>

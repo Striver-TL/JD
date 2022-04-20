@@ -1,0 +1,253 @@
+body {
+    font: 12px/150% tahoma, arial, Microsoft YaHei, Hiragino Sans GB, "\u5b8b\u4f53", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #666;
+}
+
+.container {
+    position: relative;
+    width: 990px;
+    margin: 0 auto;
+}
+
+.wrap {
+    padding-bottom: 80px;
+}
+
+.wrap .list {
+    padding-top: 90px;
+}
+
+.wrap .logo {
+    font-size: 16px;
+    color: #333;
+    height: 42px;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.wrap .logo a {
+    float: left;
+    display: block;
+    width: 145px;
+    height: 42px;
+    background: url("../images/icon.png") 0 0 no-repeat;
+}
+
+.wrap .logo span {
+    float: left;
+    display: block;
+    width: 140px;
+    height: 40px;
+    margin-top: 10px;
+    background: url("../images/cart-title.png") 0 0 no-repeat;
+    text-indent: -999999px;
+}
+
+.wrap .empty {
+    width: 200px;
+    background: url("../images/no-login-icon.png") 0 0 no-repeat;
+    padding: 10px 0 20px 71px;
+    margin: 120px auto 0;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.wrap .empty a {
+    color: #005ea7;
+}
+
+.title {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    color: #f00;
+    font-size: 18px;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #f00;
+}
+
+.thead {
+    height: 42px;
+    line-height: 42px;
+    background: #f3f3f3;
+    border: 1px solid #ccc;
+}
+
+.thead::after,
+.tfoot::after,
+.list-item::after,
+.logo::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.thead>div,
+.list-item>div {
+    float: left;
+    overflow: hidden;
+}
+
+.sel {
+    width: 120px;
+    padding-left: 10px;
+}
+
+.sel input {
+    margin: 0 5px;
+}
+
+.pro {
+    width: 380px;
+}
+
+.price,
+.total {
+    width: 135px;
+    text-align: center;
+}
+
+.count {
+    width: 100px;
+    text-align: center;
+}
+
+.oper {
+    width: 100px;
+}
+
+.list-item {
+    height: 100px;
+    padding-top: 18px;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.list-item .count {
+    font-size: 0;
+    line-height: 80px;
+}
+
+.list-item .j-addBtn,
+.list-item .j-remBtn {
+    width: 17px;
+    height: 22px;
+    font-size: 12px;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.list-item .countbar {
+    width: 44px;
+    height: 20px;
+    padding: 0;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+    text-align: center;
+    outline: none;
+}
+
+.list-item .total {
+    color: #333;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.list-item .sel img {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: red;
+    vertical-align: text-top;
+}
+
+.list-item .pro {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    width: 210px;
+    max-height: 60px;
+    padding-right: 170px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #333;
+}
+
+.list-item .oper,
+.list-item .price {
+    line-height: 70px;
+}
+
+.oper a:hover,
+#j-del-sel:hover,
+.empty a:hover {
+    color: #f00;
+}
+
+.list-item .j-img {
+    display: inline-block;
+}
+
+#j-count {
+    padding: 0 8px;
+}
+
+.tfoot {
+    height: 52px;
+}
+
+.tfoot .container {
+    height: 50px;
+    border: 1px solid #ccc;
+    line-height: 50px;
+    box-sizing: border-box;
+}
+
+.tfoot .sel {
+    width: 300px;
+    float: left;
+}
+
+.tfoot .f-right {
+    float: right;
+}
+
+.f-right>span {
+    padding-left: 15px;
+}
+
+.j-selcount {
+    color: #f00;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.global {
+    color: #f00;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.settle {
+    float: right;
+    display: block;
+    width: 95px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    background: #f20040;
+    margin-left: 20px;
+}
+
+#j-fixed {
+    background: #fff;
+}
